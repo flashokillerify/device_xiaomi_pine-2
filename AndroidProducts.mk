@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_pine.mk
+    $(LOCAL_DIR)/fluid_pine.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_pine-user \
-    spark_pine-userdebug \
-    spark_pine-eng
+    fluid_pine-user \
+    fluid_pine-userdebug \
+    fluid_pine-eng
