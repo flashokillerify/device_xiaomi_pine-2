@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_pine.mk
+    $(LOCAL_DIR)/conquer_pine.mk
 
 COMMON_LUNCH_CHOICES := \
-    fluid_pine-user \
-    fluid_pine-userdebug \
-    fluid_pine-eng
+    conquer_pine-user \
+    conquer_pine-userdebug \
+    conquer_pine-eng
