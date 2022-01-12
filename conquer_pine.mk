@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common SparkOS stuff.
-$(call inherit-product, vendor/fluid/config/common_full_phone.mk)
+$(call inherit-product, vendor/conquer/config/common_full_phone.mk)
 
 # Inherit from pine device
 $(call inherit-product, device/xiaomi/pine/device.mk)
@@ -22,7 +22,7 @@ PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := pine
-PRODUCT_NAME := fluid_pine
+PRODUCT_NAME := conquer_pine
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7A
