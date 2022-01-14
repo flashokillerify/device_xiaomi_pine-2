@@ -22,8 +22,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_sdm439_pm8953.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_sdm439_pm8953.xml
 
 # Prebuilt Packages
-PRODUCT_PACKAGES += \
-    GcamGo
+#PRODUCT_PACKAGES += \
+#    GcamGo
 
 # Sensors
 PRODUCT_COPY_FILES += \
